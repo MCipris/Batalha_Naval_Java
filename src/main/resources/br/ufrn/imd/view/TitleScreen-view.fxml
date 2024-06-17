@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.ufrn.imd.controller.TitleScreenController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="TOP" layoutX="6.0" layoutY="82.0" prefHeight="62.0" prefWidth="640.0" style="-fx-alignment: center;" text="Batalha Naval">
+         <font>
+            <Font name="Franklin Gothic Medium" size="53.0" />
+         </font>
+      </Label>
+      <BorderPane layoutX="163.0" layoutY="325.0" prefHeight="81.0" prefWidth="321.0" style="-fx-background-position: center;">
+         <center>
+            <Button alignment="CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#onClickGoToGameScreen" text="Começar" textAlignment="JUSTIFY" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Franklin Gothic Medium" size="18.0" />
+               </font>
+            </Button>
+         </center>
+         <bottom>
+            <Button alignment="CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#onClickExitGame" text="Sair" textAlignment="JUSTIFY" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Franklin Gothic Medium" size="18.0" />
+               </font>
+            </Button>
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>
